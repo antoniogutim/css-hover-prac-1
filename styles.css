@@ -1,53 +1,59 @@
+body {
+  font-family: "BBH Sans Bogle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.BBHSansBogle  {
+  font-family: "BBH Sans Bogle", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  font-style: normal;
+}
+
+.special-gothic  {
+  font-family: "Special Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;              /* para notar la diferencia más fácil */
+  font-variation-settings: "wdth" 100;
+}
+
+.pacifico {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-size: 40px;
+}
+
 button {
-
-  background-color: grey; /* Color inicial del botón */
-
+  background-color: grey;
   color: white;
-
   padding: 10px 20px;
-
   border: none;
-
   cursor: pointer;
-
 }
 
 button:hover {
-
-  background-color: rgb(0, 255, 47); /* Color del botón cuando el ratón pasa por encima */
-
+  background-color: rgb(0, 255, 47);
 }
 
 .caja {
-
   width: 200px;
-
   height: 200px;
-
   padding: 20px;
-
   border: 5px solid black;
-
   margin: 10px;
-
   display: inline-block;
-
   vertical-align: bottom;
-
 }
 
 .caja1.caja  {
-
   background-color: lightblue;
-
-  box-sizing: content-box; /* El tamaño total incluye solo el contenido */
-
+  box-sizing: content-box; /* El tamaño total NO incluye padding/borde */
 }
 
 .caja2.caja  {
-
   background-color: lightgreen;
-
-  box-sizing: border-box; /* El tamaño total incluye contenido, padding y borde */
-
+  box-sizing: border-box;  /* El tamaño total SÍ incluye padding/borde */
 }
