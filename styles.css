@@ -16,6 +16,7 @@
   background: #00a66a;
   border-bottom: 1px solid #eee;
   z-index: 999;
+  backdrop-filter: blur(6px);
 }
 
 
