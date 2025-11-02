@@ -35,6 +35,7 @@
 /* Tarjetas */
 .menu-card{
   display: flex;
+  width: 150px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
