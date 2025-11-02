@@ -27,6 +27,11 @@
   align-items: center;
 }
 
+.brand img{
+  display: block;
+  height: 28px;
+}
+
 /* Tarjetas */
 .menu-card{
   display: flex;
